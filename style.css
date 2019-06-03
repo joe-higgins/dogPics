@@ -1,0 +1,100 @@
+/* Main CSS file
+
+/* mayer reset here */
+
+body {
+    background-color: #ccc;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: lightgoldenrodyellow;
+}
+
+header {
+    background-color: lightgoldenrodyellow;
+    border-radius: 6px;
+    -webkit-box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.5);
+}
+
+header,
+footer {
+    padding: 2rem 0;
+}
+
+main,
+label {
+    margin: 2rem 0;
+}
+
+label {
+    display: block;
+    text-align: center;
+    /* width: 100%; */
+}
+
+select,
+button,
+#bottom {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #e24242;
+    display: block;
+    margin: 2rem auto;
+    background-color: lightgoldenrodyellow;
+    padding: 1.2rem;
+    border-radius: 5px;
+}
+
+button {}
+
+a,
+a:visited {
+    color: #e24242;
+}
+
+#introText {
+    font-size: 2.4rem;
+    text-align: center;
+    color: #e24242;
+}
+
+#wrapper {
+    max-width: 85vw;
+    margin: 0 auto;
+    padding: 3rem 5rem;
+    background-color: #2b2828;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.grid-item {
+    /* width: auto; */
+    /*Keep the aspect ratio of the image*/
+    height: 300px;
+    /* margin: 0 auto 1em auto; */
+    /* text-align: center; */
+    border-radius: 6px;
+    margin: 0.5em;
+    -webkit-box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+/* @media only screen and (max-width: 840px) {
+    .grid-item {
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .grid-item {
+        height: 600px;
+    }
+} */
