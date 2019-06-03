@@ -43,6 +43,9 @@ button,
     background-color: lightgoldenrodyellow;
     padding: 1rem;
     border-radius: 5px;
+    -moz-appearance: none;
+  	-webkit-appearance: none;
+  	appearance: none;
 }
 /* ============== */
 .select-css {
