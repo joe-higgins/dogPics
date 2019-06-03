@@ -13,11 +13,9 @@ request.onload = function() {
         data.message.forEach(item => {
             console.log(item);
             let option = document.createElement("option"); //create an option node
-
-            // let optionValue = document.createTextNode(item);
             option.text = item;
             option.value = item;
-            // option.appendChild(optionText);
+            option.className = 'option-class'
             document.getElementById("list").appendChild(option); // Append <li> to <ul> with id="myList"
         })
     } else {
