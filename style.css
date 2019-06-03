@@ -129,10 +129,11 @@ a:visited {
     .grid-item {
         height: 500px;
     }
-}
+} */
 
 @media only screen and (max-width: 640px) {
-    .grid-item {
-        height: 600px;
-    }
-} */
+  #wrapper {
+      max-width: 95vw;
+      padding: 1rem 2rem;
+  }
+}
