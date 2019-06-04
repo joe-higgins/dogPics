@@ -31,16 +31,36 @@ label {
     text-align: center;
     /* width: 100%; */
 }
-
+button {
+    border: none;
+    color: lightgoldenrodyellow;
+    background-color: #e24242;
+    transition: .7s;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(250,250,210, 0.3);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(250,250,210, 0.3);
+    box-shadow: 1px 1px 5px 0px rgba(250,250,210, 0.3);
+}
+button:hover {
+    font-weight: 600;
+    color: #fdfde6;
+    background-color: #ee0b0b;
+    transition: .7s;
+}
+button:focus {
+  outline: none;
+}
+select,
+#bottom {
+    color: #e24242;
+    background-color: lightgoldenrodyellow;
+}
 select,
 button,
 #bottom {
     font-size: 1.2rem;
     text-align: center;
-    color: #e24242;
     display: block;
     margin: 2rem auto;
-    background-color: lightgoldenrodyellow;
     padding: 1rem;
     border-radius: 5px;
     -moz-appearance: none;
